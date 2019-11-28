@@ -10,6 +10,11 @@ def showName():
     return f'Name: {name}'
     # return "Name:"
 
+@app.route('/name/<name>')
+def showName_param(name):
+    return name
+
+
 # Executa o código
 # app.run()
 app.run (debug=True, port=5000, host='0.0.0.0')
