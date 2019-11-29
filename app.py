@@ -1,6 +1,14 @@
-from flask import Flask, request
+from flask import Flask, request, Response
 # pega o nome do arquivo que está sendo executado
 app = Flask(__name__) 
+
+
+@app.route("/home")
+def home():
+    # return Response("Home page",200,{})
+    return "Home page",200
+
+
 
 # Utiliza um decorator. A fusão logo abaixo dele.
 @app.route("/")
