@@ -8,3 +8,5 @@
 [03 - Objeto request](../../tree/58978d91d7c512790605502966d902b8765fa9bd)
 
 [09 - Parametros em rota](../../tree/d2eb0ee906c489e13b0cb852d6db36cf7b5e8c21)
+
+[10 - Parametros em rota](../../tree/83fe8f85c209da4ef4b6594e614cb3371a2d1721)
