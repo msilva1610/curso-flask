@@ -8,7 +8,6 @@ def create_app():
     app = Flask(__name__) 
 
     routes.load(app)
-
     # Retorna o próprio app
     return app
 
