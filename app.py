@@ -10,9 +10,12 @@ def showName():
     return f'Name: {name}'
     # return "Name:"
 
+@app.route('/name')
 @app.route('/name/<name>')
-def showName_param(name):
-    return name
+def showName_param(name = None):
+    if name:
+        return name
+    return "Objeto name não foi definido"
 
 
 # Executa o código
