@@ -18,3 +18,5 @@
 [13 - Routers](../../tree/6c11e4e99a5d4cf0fffa863b98729f948609f8ef)
 
 [14 - Organizando Projeto](../../tree/f44fc09fc1041f55bb5680b9ccfb8a7f4ea18430)
+
+[15 - Entendendo as blueprints](../../tree/72e9f482c7df5b4227fcf4f0763fc305d0720fb4)
